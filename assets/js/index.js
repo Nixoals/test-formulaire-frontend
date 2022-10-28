@@ -19,6 +19,6 @@ submitBtn.addEventListener('click', async (e) => {
 		message,
 	};
 	console.log(data);
-	const result = await axios.post('http://localhost:3000/submit-form', data);
+	const result = await axios.post('https://site--test-formulaire-backend--gsmxcbzt8tzm.code.run/submit-form', data);
 	console.log(result.data);
 });
