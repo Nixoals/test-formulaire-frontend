@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/style/reset.css" />
+		<link rel="stylesheet" href="./assets/style/style.css" />
+		<script src="./assets/js/index.js" defer></script>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+
+		<title>formulaire</title>
+	</head>
+	<body>
+		<section>
+			<div class="main-button">
+				<button>Fill the form</button>
+			</div>
+
+			<div class="formulaire-container">
+				<h1>Formulaire de contact</h1>
+				<form id="contact-form">
+					<input type="text" name="firstname" id="firstname" placeholder="firsname" />
+					<input type="text" name="lastname" id="lastname" placeholder="lastname" />
+					<input type="email" name="email" id="email" placeholder="email" />
+					<input type="text" name="subject" id="subject" placeholder="subject" />
+					<textarea name="" id="message" cols="30" rows="10" placeholder="message"></textarea>
+					<button id="submit-btn" type="submit">Envoyer le message</button>
+				</form>
+			</div>
+		</section>
+	</body>
+</html>
